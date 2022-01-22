@@ -1,33 +1,484 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Premium Corporate</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS v5.0.2 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  </head>
-  <body>
+<head>
+  <title>Premium Corporate</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
-          </div>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Header Section Start -->
+  <div class="app">
+    <div class="bg-primary navbar-dark py-3">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="header-contact">
+          <a href="#" class="navbar-brand"> <i class="bi bi-envelope-open-fill me-3"></i>Pinar@gmail.com</a>
+          <a href="#" class="navbar-brand"> <i class="bi bi-telephone-fill me-3"></i>85 26 37 48 59</a>
+          <a href="#" class="navbar-brand"> <i class="bi bi-stopwatch-fill me-3"></i>Mon-Sat : 9AM-6PM</a>
+        </div>
+
+        <div class="header-right d-flex">
+          <ul class="d-flex ">
+            <li class="list-unstyled"><a class="navbar-brand" href=""></a>LOGIN</li>
+            <li class="list-unstyled"><a class="navbar-brand" href=""></a>SUPPORT</li>
+            <li class="list-unstyled"><a class="navbar-brand" href=""></a>LANGUAGES</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <!-- Header Section End -->
+
+    <div class="main main-dark position-relative mb-4">
+      <!-- Navbar Section Start -->
+      <nav class="navbar navbar-light bg-light mx-auto">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="" alt="">
+          </a>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-font pe-4">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-2" href="#">Sliders</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-2" href="#">Galleries</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link disabled">Pages</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link disabled">Blog</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link disabled">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
       </nav>
-      
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-  </body>
+      <!-- Navbar Section End -->
+
+      <!-- Slide Section Start -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide text-white d-flex flex-column justify-content-center align-items-center">
+            <h1 class="l-font mb-4">Premium Solution for a Modern Website</h1>
+            <h3 class="m-font mb-4">Psdfreebies.com</h3>
+            <p class="s-font center-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corporis,
+              assumenda autem similique tempore dolorem libero officia ipsum placeat amet, ab nobis aliquid eius odio!
+              Voluptas incidunt praesentium vel tempora.</p>
+          </div>
+          <div class="swiper-slide text-white d-flex flex-column justify-content-center align-items-center">
+            <h1 class="l-font mb-4">Premium Solution for a Modern Website</h1>
+            <h3 class="m-font mb-4">Psdfreebies.com</h3>
+            <p class="s-font center-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corporis,
+              assumenda autem similique tempore dolorem libero officia ipsum placeat amet, ab nobis aliquid eius odio!
+              Voluptas incidunt praesentium vel tempora.</p>
+          </div>
+          ...
+        </div>
+      </div>
+
+      <!-- Slide Section End -->
+
+      <!-- Join Section Start -->
+
+      <!-- Join Section End -->
+
+
+    </div>
+    <div class="container">
+      <div class="join-us-container">
+        <div class="test d-flex align-items-center justify-content-center">
+          <div class="intro-desc ">
+            <h3 class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor modi minus quasi
+              iste, eaque harum, eum voluptas temporibus magni cum possimus illo, earum reprehenderit deserunt dolores
+              error recusandae optio maxime?</h3>
+          </div>
+          <form action="" class=" d-flex">
+            <input class=" border-white" type="text" placeholder="Enter Your Email"></input>
+            <button type="submit"> Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="triangle ">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Why us section Start -->
+  <section class="why-us mt-5 mb-4">
+
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="xl-font head-color mb-4">Why us?</h1>
+          <div class="header-text w-50 mx-auto">
+            <p class="p-color mb-4 m-font">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
+              laboriosam fuga distinctio tenetur nemo accusantium consectetur aliquam deleniti ipsum sunt nobis et saepe
+              maxime unde beatae, dicta nulla voluptatem debitis!</p>
+          </div>
+        </div>
+      </div>
+      <div class="item-brand d-flex mt-3">
+        <div class="row">
+          <div class="col-md-4">
+            <div
+              class="why-us-item d-flex flex-column justify-content-center align-items-center border-right border-dark">
+              <div class="item-icon bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3">
+                <i class="bi bi-share white-icon-color l-font"></i>
+              </div>
+              <p class="p-color-dark m-font center-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id,
+                quisquam officia. Ad aliquid ut, rem vero ullam labore consequuntur voluptas, deserunt pariatur eaque
+                asperiores voluptates esse! Repudiandae recusandae laudantium ex.</p>
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div
+              class="why-us-item d-flex flex-column justify-content-center align-items-center border-right border-dark">
+              <div class="item-icon bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3">
+                <i class="bi bi-share white-icon-color l-font"></i>
+              </div>
+              <p class="p-color-dark m-font center-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id,
+                quisquam officia. Ad aliquid ut, rem vero ullam labore consequuntur voluptas, deserunt pariatur eaque
+                asperiores voluptates esse! Repudiandae recusandae laudantium ex.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="why-us-item d-flex flex-column justify-content-center align-items-center">
+              <div class="item-icon bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3">
+                <i class="bi bi-share white-icon-color l-font"></i>
+              </div>
+              <p class="p-color-dark m-font center-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id,
+                quisquam officia. Ad aliquid ut, rem vero ullam labore consequuntur voluptas, deserunt pariatur eaque
+                asperiores voluptates esse! Repudiandae recusandae laudantium ex.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- Wyh us Section  End -->
+
+
+
+  <!-- Hero Section Start  -->
+
+  <section class="hero mt-5 mb-5">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-md-6">
+          <div class="hero-content w-100 d-flex flex-column p-5">
+            <h1 class="md-font mb-3">Lorem ipsum dolor siamet conse ctetur
+              adipi sicing elit sed doni.</h1>
+            <div class="check-content">
+              <ul class="d-flex flex-column ">
+                <li class="mb-3">
+                  <div class="check-content-item d-flex justify-content-center align-items-center">
+                    <span><i class="bi bi-check2 l-font me-3"></i></span>
+                    <p class="m-font">Vici nisi etiam orci faucibus felis justo sem cras viverra sociis rutrum neque.
+                    </p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="check-content-item d-flex justify-content-center align-items-center">
+                    <span><i class="bi bi-check2 l-font me-3"></i></span>
+                    <p class="m-font">Vici nisi etiam orci faucibus felis justo sem cras viverra sociis rutrum neque.
+                    </p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="check-content-item d-flex justify-content-center align-items-center">
+                    <span><i class="bi bi-check2 l-font me-3"></i></span>
+                    <p class="m-font">Vici nisi etiam orci faucibus felis justo sem cras viverra sociis rutrum neque.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hero-second">
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  Hero Section End -->
+
+
+  <!-- Testamonials Section Start -->
+
+  <section class="testimonials pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="testamonial-header d-flex flex-column justify-content-center align-items-center text-white mb-5">
+            <h3 class="m-font">Testamonials</h3>
+            <h1 class="l-font">What Our Clients Say</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonials-container">
+            <div class="testimonials-content">
+              <div class="testimonials-content-item">
+                <p class="text-white">“Credibly innovate granular internal or "organic" sources whereas high standards
+                  in web readiness.
+                </p>
+
+              </div>
+            </div>
+            <div class="testimonials-profile d-flex justify-content-center align-items-center">
+              <div class="testimonials-image rounded-circle bg-white">
+              </div>
+              <div class="testimonials-profile-content text-white">
+                <h3>JIMMY FERRARA</h3>
+                <span>
+                  <p>Ceo, Psdfreebies.com</p>
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+
+          <div class="testimonials-container">
+            <div class="testimonials-content">
+              <div class="testimonials-content-item">
+                <p class="text-white">“Credibly innovate granular internal or "organic" sources whereas high standards
+                  in web readiness.
+                </p>
+
+              </div>
+            </div>
+            <div class="testimonials-profile d-flex justify-content-center align-items-center">
+              <div class="testimonials-image rounded-circle bg-white">
+              </div>
+              <div class="testimonials-profile-content text-white">
+                <h3>JIMMY FERRARA</h3>
+                <span>
+                  <p>Ceo, Psdfreebies.com</p>
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+
+          <div class="testimonials-container">
+            <div class="testimonials-content">
+              <div class="testimonials-content-item">
+                <p class="text-white">“Credibly innovate granular internal or "organic" sources whereas high standards
+                  in web readiness.
+                </p>
+
+              </div>
+            </div>
+            <div class="testimonials-profile d-flex justify-content-center align-items-center">
+              <div class="testimonials-image rounded-circle bg-white">
+              </div>
+              <div class="testimonials-profile-content text-white ">
+                <h3>JIMMY FERRARA</h3>
+                <span>
+                  <p>Ceo, Psdfreebies.com</p>
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testamonials Section End -->
+
+  <!-- Footer Section Start -->
+
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="footer-logo-content">
+            <div class="footer-logo mb-3">
+              <a href="#"> ULTRAPREMIUM</a>
+            </div>
+            <p class="mb-3">Vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum
+              deleniti atque corrupti quos dolores et quasoa molestias excepturi sintal occaecati cupiditate non
+              provident similique sunt.</p>
+
+            <div class="social-media-icons">
+              <ul class="social-media-items d-flex l-font">
+                <li>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href=""> <i class="bi bi-twitter"></i></a>
+                </li>
+                <li>
+                  <a href=""> <i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href=""> <i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="menu-container d-flex justify-content-between">
+            <div class="footer-menu col-md-4">
+              <div class="quick-menu mb-5">
+                <p>Quic Links</p>
+              </div>
+              <ul>
+                <li class="mb-2">Home</li>
+                <li class="mb-2">About</li>
+                <li class="mb-2">Company</li>
+                <li class="mb-2">Our Service</li>
+                <li class="mb-2">Service</li>
+                <li class="mb-2"> Location</li>
+                <li class="mb-2">Recent News</li>
+                <li class="mb-2"> Contact Us</li>
+              </ul>
+            </div>
+
+            <div class="footer-menu col-md-4">
+              <div class="quick-menu mb-5">
+                <p>Quic Links</p>
+              </div>
+              <ul>
+                <li class="mb-2">Home</li>
+                <li class="mb-2">About</li>
+                <li class="mb-2">Company</li>
+                <li class="mb-2">Our Service</li>
+                <li class="mb-2">Service</li>
+                <li class="mb-2"> Location</li>
+                <li class="mb-2">Recent News</li>
+                <li class="mb-2"> Contact Us</li>
+              </ul>
+            </div>
+
+            <div class="footer-menu col-md-4">
+              <div class="quick-menu mb-5">
+                <p>Quic Links</p>
+              </div>
+              <ul>
+                <li class="mb-2">Home</li>
+                <li class="mb-2">About</li>
+                <li class="mb-2">Company</li>
+                <li class="mb-2">Our Service</li>
+                <li class="mb-2">Service</li>
+                <li class="mb-2"> Location</li>
+                <li class="mb-2">Recent News</li>
+                <li class="mb-2"> Contact Us</li>
+              </ul>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section End -->
+  <!-- Copy Right Start -->
+  <div class="footer-copyright w-100  d-flex justify-content-center align-items-center">
+    <p>© 2015 PSDFREEBIES.COM. All Rights Reserved.</p>
+  </div>
+  <!-- Copy Right End -->
+
+
+
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+      autoplay: {
+        delay: 3000
+      },
+      // If we need pagination
+      pagination: false,
+
+      // Navigation arrows
+      navigation: false,
+
+      // And if we need scrollbar
+      scrollbar: false,
+    });
+  </script>
+</body>
+
 </html>

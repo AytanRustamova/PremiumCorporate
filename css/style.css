@@ -38,7 +38,6 @@ body {
 
 
 
-
 .check-content-item i{
     color: #9c9c9c;
 }
@@ -51,9 +50,8 @@ body {
 
 .hero-second{
     background-color: #bdbdbd;
-    
+    height: 327px;
 }
-
 
 .check-content-item p {
     color: #bdbdbd;
@@ -63,32 +61,24 @@ body {
 .xs-font{
     font-size: 14px;
 }
-
 .s-font{
     font-size: 16px;
 }
-
 .nav-font{
     font-size: 17px;
 }
-
 .m-font{
     font-size: 20px;
 }
-
 .l-font{
     font-size: 35px;
 }
-
 .md-font{
     font-size: 24px;
-
 }
-
 .xl-font{
     font-size: 40px;
 }
-
 
 /* Additional */
 .m-width{
@@ -111,8 +101,6 @@ body {
     border-right: 1px solid gray;
 
 }
-
-
 .center-p{
     width: 70%;
 }
@@ -120,12 +108,12 @@ body {
 .item-icon{
     width: 80px;
     height: 80px;
+    background-color: #016BB6;
 }
 
 .hero-content h1{
     color: #3b3b3b;
 }
-
 
 .testimonials{
     background-color: #016BB6;
@@ -143,10 +131,8 @@ body {
 
 .testimonials-content-item{
     padding: 50px 40px 0px 40px;
-    font-size: 17px;
-    
+    font-size: 17px; 
 }
-
 .testimonials-image {
     min-width: 100px;
     height: 100px;
@@ -222,8 +208,7 @@ body {
     height: 150px;
     padding-right: 2rem;
     -webkit-clip-path: polygon(0% 0%, 100% 20%, 100% 79%, 36% 78%, 34% 93%, 32% 77%, 0 77%);
-    clip-path: polygon(0% 0%, 100% 19%, 100% 79%, 28% 77%, 29% 91%, 25% 77%, 0 77%);
-    
+    clip-path: polygon(0% 0%, 100% 19%, 100% 79%, 28% 77%, 29% 91%, 25% 77%, 0 77%); 
 }
 
 .test form {
@@ -251,3 +236,59 @@ body {
     clip-path: polygon(61% 100%, 0 0, 100% 0);
     background-color: green;
 }
+
+/* Responsive Design */
+@media only screen and (max-width: 1200px) {
+   .hero-second{
+       height: 411px;
+   }
+   .header-contact a{
+       font-size: 16px;
+   }
+  }
+@media only screen and (max-width: 991px) {
+    .hero-second{
+        height: 555px;
+    }
+
+    .test{
+        width: 900px;
+    }
+    .intro-desc h3{
+        font-size: 13px;
+    }
+ 
+   }
+@media only screen and (max-width: 870px) {
+
+    .test{
+        width: 750px;
+    }
+   }
+
+@media only screen and (max-width: 767px) {
+    .hero-second{
+        display: none;
+    }
+ 
+   }
+@media only screen and (max-width: 660px) {
+   .intro-desc h3{
+       display: none;
+   }
+
+   .test{
+       width: 450px;
+   }
+   .non-p{
+       display: none;
+   }
+   }
+@media only screen and (max-width: 500px) {
+    .header-right ul{
+        flex-direction: column;
+    }
+    .header-contact a{
+        line-height: 25px;
+    }
+   }
